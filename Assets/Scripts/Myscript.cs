@@ -11,10 +11,11 @@ public class Myscript : MonoBehaviour
         {
             print(i);
         }
-        for (int i = 1; i <= 100; i++)
+        int odd = 1;
+        while (odd <= 100)
         {
-            if (i % 2 == 0)
-                print(i);
+            print(odd);
+            odd = odd + 2;
         }
         float x = 1.0f;
         float r = circle(x);
